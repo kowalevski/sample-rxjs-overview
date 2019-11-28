@@ -1,0 +1,30 @@
+{
+  "name": "sample-rxjs-overview",
+  "version": "1.0.0",
+  "description": "Simple examples of RxJS features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkl0g/sample-rxjs-overview.git"
+  },
+  "author": "mkl0g",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkl0g/sample-rxjs-overview/issues"
+  },
+  "homepage": "https://github.com/mkl0g/sample-rxjs-overview#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "rxjs": "^6.5.3"
+  }
+}
